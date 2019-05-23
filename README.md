@@ -22,9 +22,9 @@ A useful extension to the existing Facebook/create-react-app, where I have simpl
         ```sh
             npm start
         ```
-            -   Now the browser should open on port 3000 with the application running.
-                -   Updates to source code will automatically refresh the application display status of any errors present.
-                
+        - Now the browser should open on port 3000 with the application running.
+            - Updates to source code will automatically refresh the application display status of any errors present.
+
   <strong> The remainder of the details are taken directly from Facebook/create-react-app </strong>
   <!-- - Follow the below instructions to install create-react-app, then add react-simple-tabs via the instructions above if you haven't already.  -->
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
