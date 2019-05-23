@@ -1,22 +1,36 @@
 # create-react-app-with-tabs
 A useful extension to the existing Facebook/create-react-app, where I have simply added a static navigation bar with single-page style tabs.
-  - You will need to install Facebook/create-react-app using their methods in the readme below
 <strong>I am using the NPM version of react-simple-tabs.</strong>
-<br>
- - To install react-simple-tabs:
-   <br>
-    - In Terminal, or bash, or cmd, etc... 
-        - Navigate to the project root folder (e.g. "User/Desktop/workspace/reactprogram/")
- 
-    Enter the following command:<br>
-      <code>
-         npm install react-simple-tab
-      </code>
-<strong> The remainder of the details are taken directly from Facebook/create-react-app </strong>
+ - To install create-react-app-simple-tabs:
+    - In Terminal, or bash, or cmd, etc...
+        - Navigate to the project root folder (e.g. "User/Desktop/workspace/")
+            - Enter the following command:
+            ```sh
+                git clone https://github.com/julianvanost/create-react-app-with-tabs
+            ```
+- In Terminal, or bash, or cmd, etc...
+    - To start the application, navigate to the created folder cloned from the above repository (e.g. "User/Desktop/workspace/create-react-app-with-tabs")
+        -   Enter the following command:
+        ```sh
+            yarn start
+        ```
+        - If using NPM to instead of yarn, use the following commands instead:
+        ```sh
+            npm run build
+        ```
+        - Then enter the following:
+        ```sh
+            npm start
+        ```
+            -   Now the browser should open on port 3000 with the application running.
+                -   Updates to source code will automatically refresh the application display status of any errors present.
+                
+  <strong> The remainder of the details are taken directly from Facebook/create-react-app </strong>
   <!-- - Follow the below instructions to install create-react-app, then add react-simple-tabs via the instructions above if you haven't already.  -->
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-Below you will find some information on how to perform common tasks.<br>
+Below you will find some information on how to perform common tasks.
+
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
 ## Table of Contents
@@ -300,7 +314,7 @@ In the WebStorm menu `Run` select `Edit Configurations...`. Then click `+` and s
 
 Start your app by running `npm start`, then press `^D` on macOS or `F9` on Windows and Linux or click the green debug icon to start debugging in WebStorm.
 
-The same way you can debug your application in IntelliJ IDEA Ultimate, PhpStorm, PyCharm Pro, and RubyMine. 
+The same way you can debug your application in IntelliJ IDEA Ultimate, PhpStorm, PyCharm Pro, and RubyMine.
 
 ## Formatting Code Automatically
 
@@ -1838,7 +1852,7 @@ If you’re using [Apache HTTP Server](https://httpd.apache.org/), you need to c
     RewriteRule ^ index.html [QSA,L]
 ```
 
-It will get copied to the `build` folder when you run `npm run build`. 
+It will get copied to the `build` folder when you run `npm run build`.
 
 If you’re using [Apache Tomcat](http://tomcat.apache.org/), you need to follow [this Stack Overflow answer](https://stackoverflow.com/a/41249464/4878474).
 
@@ -2234,7 +2248,7 @@ To resolve this:
 1. Open an issue on the dependency's issue tracker and ask that the package be published pre-compiled.
   * Note: Create React App can consume both CommonJS and ES modules. For Node.js compatibility, it is recommended that the main entry point is CommonJS. However, they can optionally provide an ES module entry point with the `module` field in `package.json`. Note that **even if a library provides an ES Modules version, it should still precompile other ES6 features to ES5 if it intends to support older browsers**.
 
-2. Fork the package and publish a corrected version yourself. 
+2. Fork the package and publish a corrected version yourself.
 
 3. If the dependency is small enough, copy it to your `src/` folder and treat it as application code.
 
