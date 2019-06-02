@@ -10,8 +10,9 @@ class App extends Component {
   render() {
      const tabs = [
       { title: 'Home', content: (<TabContent>Content 1</TabContent>) },
-      { title: 'Examples', content: (<TabContent>Content 2</TabContent>) },
-      { title: 'Contact', content: (<TabContent>Content 3</TabContent>) }
+      { title: 'About', content: (<TabContent>Content 2</TabContent>) },
+      { title: 'Contact', content: (<TabContent>Content 3</TabContent>) },
+      { title: 'Projects', content: (<TabContent>Content 4</TabContent>) }
     ].map(tab => {
       return Object.assign({}, tab, {
         style: Styles.app.tabContentStyle,
